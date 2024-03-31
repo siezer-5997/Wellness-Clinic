@@ -1,0 +1,32 @@
+.services-container {
+    background-color: #125541; /* Dark green background */
+    color: #daebe7; /* White text for the entire container */
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.services-container h2 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #fff; /* White horizontal line */
+    padding-bottom: 10px;
+}
+
+.service-item {
+    background-color: #a7cec0; /* Lighter green boxes */
+    color: #fff; /* White text for service items */
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 4px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Add more specific styles as needed */

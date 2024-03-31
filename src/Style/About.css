@@ -1,0 +1,47 @@
+/* About.css */
+.about-container {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .about-header {
+    background-color: #15775a; /* Greenish background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+  }
+  .about-header h2 p{
+    color: #f7f7f7;
+  }
+  .services-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f7f7f7; /* Light background for the flex items */
+  }
+  
+  .flex-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    flex-basis: calc(33% - 20px); /* Three items per row with spacing */
+    text-align: center;
+  }
+  
+  .flex-item h3 {
+    color: #125541; /* Greenish text for headers */
+  }
+  
+  @media (max-width: 768px) {
+    .services-flexbox {
+      flex-direction: column;
+    }
+  
+    .flex-item {
+      flex-basis: auto; /* Full width on smaller screens */
+    }
+  }
+  

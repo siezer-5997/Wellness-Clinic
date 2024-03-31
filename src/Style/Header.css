@@ -1,0 +1,44 @@
+/* Header.css style  */
+
+.header {
+  position: sticky;
+  top: 0;
+  margin: 1rem 0;
+  width: 100%;
+  background: linear-gradient(to right, #02755c, #125541);
+  padding: 10px 20px;
+  border-radius: 0 0 0 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  float: left;
+  color: #d4ebe8;
+  font-weight: bold;
+  font-size: 24px;
+}
+.tabs{
+  position: relative;
+  left: 15rem;
+}
+ul {
+  padding: 0;
+  text-align: center;
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #daebe7;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #007f3e;
+}
